@@ -1,0 +1,16 @@
+baseURL = "https://eeSangBin.github.io/"
+languageCode = "en-us"
+title = "Binzino"
+theme = "hugo-book"
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
+
+[params]
+  math = true
+  author = "sblee"
+  sectionPagesMenu = "main"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
